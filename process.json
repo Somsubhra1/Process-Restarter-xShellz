@@ -1,0 +1,24 @@
+[
+ {
+ "placeholder":"Enter process name. Type help to get the list of available processes",
+ "format":"string",
+ "type": "text",
+ "isMandatory": "true",
+ "name": "pname"
+ },
+ {
+ "placeholder":"Enter eggdrop configuration file name with a .conf extension. This is needed only if you want to start eggdrop",
+ "format":"string",
+ "type": "text",
+ "isMandatory": "false",
+ "name": "filename"
+ },
+ {
+ "placeholder":"Start the process",
+ "format":"button",
+ "type": "submit",
+ "isMandatory": "true",
+ "name" : "submit",
+ "value": "Launch the process now!"
+ }
+]
